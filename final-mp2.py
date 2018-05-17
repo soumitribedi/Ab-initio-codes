@@ -8,10 +8,11 @@ from numpy import linalg
 mol = pyscf.gto.M(
 verbose = 5,
 atom = [
-['N', (0.0, 0.0, 0.0)],
-['N', (1.1, 0.0, 0.0)],
+['O', (-1.81415925, 1.62241885, 0.0)],
+['H', (-0.85415925, 1.62241885, 0.0)],
+['H', (-2.13461384, 2.52735469, 0.0)],
 ],
-basis = 'sto-3g',
+basis = 'sto-3G',
 symmetry = True)
 
 # Set options to make Numpy printing more clear
